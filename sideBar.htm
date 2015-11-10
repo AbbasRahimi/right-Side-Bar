@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>rightSideBar</title>
+
+<link href="../resources/css/content.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/manualButton.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/popup-Dialog.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="../resources/css/bootstrap.min.css">
+<link rel="stylesheet" href="../resources/css/form_style.css">
+<link rel="stylesheet" href="../resources/css/jquery.mCustomScrollbar.css">
+</head>
+<body >
+    <div id="sideBar" class="side_bar">
+        <div id="side_content"  class="s_content">
+                <nav id="slideNavigation">
+                <ul style="padding-left: 0">
+                    <li><h3 style="color:#F5F5F5;text-align: right"> selections </h3><br></li>
+                    <li><a href="#">option1</a><br></li>
+                    <li><a href="#">option2</a><br></li>
+                    <li><a href="#">option3</a><br></li>
+                    <li><a href="#">option4</a><br></li>
+                    <li><a href="#">option5</a><br></li>
+                    <li><a href="#">option6</a><br></li>
+                    <li><a href="#">option7</a><br></li>
+                    <li><a href="#">option8</a><br></li>
+                    <li><a href="#">option9</a><br></li>
+                    <li><a href="#">option10</a><br></li>
+                    <li><a href="#">option11</a><br></li>
+                    <li><a href="#">option12</a><br></li>
+                    <li><a href="#">option13</a><br></li>
+                    <li><a href="#">option14</a><br></li>
+                    <li><a href="#">option15</a><br></li>
+                    <li><a href="#">option16</a><br></li>
+                    <li><a href="#">option17</a><br></li>
+                    <li><a href="#">option18</a><br></li>
+                    <li><a href="#">option19</a><br></li>
+                    <li><a href="#">option20</a><br></li>
+                  </ul>
+                </nav>
+        </div>
+        <div id="side_button"  class="s_btn">
+              <img id="ico1" src="../resources/images/arrow-right.png" class="b_show"></img>
+              <img id="ico2" src="../resources/images/arrow-left.png" class="b_hide"></img>
+        </div>
+    </div>
+ <div style="background-color:#cdcdcd;width:100%;height:99%;"></div>
+<script type="text/javascript" src="../resources/js/jquery.js"></script>
+<script type="text/javascript" src="../resources/js/jquery-1_002.js"></script>
+<script type="text/javascript" src="../resources/js/jquery_002.js"></script>
+<script type="text/javascript" src="../resources/js/jquery-1.js"></script>
+<script src="../resources/js/jquery-1.11.1.min.js"></script>
+<!--____ Date ______-->
+<script src="../resources/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type="text/javascript">
+     $(document).ready(function() {
+            $("#side_content").mCustomScrollbar({
+    			scrollButtons:{enable:true},
+    			theme:"light-3",
+    			scrollbarPosition:"outside",
+                scrollInertia:200,
+                autoHideScrollbar:true
+			});
+    });
+     var d="margin-top:"+($(window).height()/2)+"px;";
+     console.log(d);
+     $('#sideBar').attr("style","height:"+$(window).height()+"px;");
+     console.log($(window).height());
+     $('#sideBar img').attr("style",d);
+     $('#side_button').on('click',function(){
+          $('#sideBar').toggleClass('s_show');
+          $('#ico1').toggleClass('b_hide');
+          $('#ico2').toggleClass('b_hide');
+          $('#side_button').toggleClass('s_op');
+     });
+     $(document).mouseup(function (e)
+    {
+        var container = $("#sideBar");
+        if (!container.is(e.target)
+            && container.has(e.target).length === 0)
+        {
+          if($('#sideBar').hasClass('s_show')){
+                $('#sideBar').removeClass('s_show');
+                $('#ico1').removeClass('b_hide');
+                $('#ico2').addClass('b_hide');
+                $('#side_button').removeClass('s_op');
+            }
+        }
+    });
+</script>
+
+</body></html>
