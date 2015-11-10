@@ -1,0 +1,182 @@
+/*
+	Stylesheet for examples by DevHeart.
+	http://devheart.org/
+
+	Article title:	jQuery: Customizable layout using drag n drop
+	Article URI:	http://devheart.org/articles/jquery-customizable-layout-using-drag-and-drop/
+
+	Example title:	2. Saving and loading items
+	Example URI:	http://devheart.org/examples/jquery-customizable-layout-using-drag-and-drop/2-saving-and-loading-items/index.html
+*/
+
+/*
+	Typography
+------------------------------------------------------------------- */
+
+p {margin-bottom: 1em;}
+
+
+/*
+	Forms
+------------------------------------------------------------------- */
+
+.input-button {
+	background-color: #E2E2E2;
+	border: 1px outset #AAA;
+	color: #123;
+	font-weight: bold;
+	padding: 4px 5px;
+}
+.input-button:active {border-style: inset;}
+
+
+/*
+	Alignment
+------------------------------------------------------------------- */
+
+/* Floats */
+
+.left {float: left;}
+.right {float: right;}
+
+.clear,.clearer {clear: both;}
+.clearer {
+	display: block;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+}
+
+
+/*
+	Example specifics
+------------------------------------------------------------------- */
+
+/* Layout */
+
+#center-wrapper {
+	margin: 0 auto;
+	width: 920px;
+}
+
+
+/* Columns */
+
+.column {
+	margin-left: 2%;
+	min-width:80px;
+}
+.column.first {margin-left: 0;}
+
+
+/* Sortable items */
+.sortable-list {
+	list-style: none;
+	margin: 0;
+	min-height: 60px;
+	padding: 10px;
+}
+
+
+.sortable-side_bar{
+    list-style: none;
+	margin: 0;
+	min-height: 60px;
+}
+
+.sortable-item {
+	display: block;
+	text-align: center;
+}
+
+/*place holder*/
+.placeholder {
+	background-color: #93B6FF;
+	border: 1px dashed #666;
+	height: auto;
+    width: 100%;
+	margin-bottom: 5px;
+}
+
+
+#it_gis ul li a:hover{
+    text-decoration: none;
+  }
+
+#it_gis ul li div:hover >img{
+
+  }
+
+  .show{
+    display: block;
+  }
+  .hide{
+    display: none;
+  }
+  .ac_title{
+    margin-top: -10px;
+    color: #000;
+    width: 40px;
+    margin-right: 30px;
+
+  }
+
+.btn_title{
+    margin: -5px 0px 0px 5px;
+    width: 95px;
+    height: 60px;
+    overflow: hidden;
+    font-size: smaller bold;
+}
+
+.btn_images{
+  margin:4px 0px 0px 4px;
+  width: 50px;
+  height: 50px;
+}
+
+.btn_container{
+  min-width:95px;
+  height: 125px;
+  display: inline-block;
+}
+
+.collops{
+    height:20 !important;
+}
+.collops1{
+    min-height:0 !important;
+    height:20 !important;
+}
+
+.collops > div{
+    display: none;
+}
+
+.cat{
+   min-height: 180px;
+   margin: 5px;
+
+}
+
+.cat_header{
+   cursor: move;
+   height:30px;
+   background-color:rgba(206, 206, 206, 0.5 );
+   direction: rtl;
+}
+
+.links{
+   direction: rtl;
+}
+
+.cat_content{
+
+   background-color:rgba(224, 224, 224, 0.5 );
+
+}
+
+/* Disabled list */
+
+#example-2-4 .sortable-list {background-color: #CCC;}
+#example-2-4 .sortable-item {cursor: default;}
