@@ -1,0 +1,289 @@
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+	float: right;
+	margin-bottom: 0;
+}
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+	margin-bottom: 10px;
+}
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+	float: right;
+	margin-bottom: 0;
+}
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+	margin-bottom: 10px;
+}
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+	float: right;
+	margin-bottom: 0;
+}
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+	margin-bottom: 10px;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+	float: right;
+	margin-bottom: 0;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+	margin-bottom: 10px;
+}
+button, input, optgroup, select, textarea, label {
+	text-align: right;
+}
+
+label {
+	font-weight: 400;
+	direction: rtl;
+}
+body {
+	font-family: Tahoma;
+	font-size: 13px;
+}
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
+	border-color: rgba(82, 168, 236, 0.8);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+	outline: 0 none;
+}
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+	border-radius: 4px;
+	color: #555555;
+	display: inline-block;
+	font-size: 13px;
+	height: 30px;
+	line-height: 20px;
+	padding: 4px 6px;
+	vertical-align: middle;
+	box-sizing: border-box;
+}
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+	transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+.full-row {
+	background-color: rgba(239, 239, 239, 0.3);
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin: 10px 0;
+	padding: 20px 15px;
+}
+/* _______ Design For Chechbox _________*/
+.checkbox {
+	margin: 0 !important;
+}
+input[type="checkbox"] {
+	float: right;
+	margin-left: 10px;  clip: rect(0px, 0px, 0px, 0px);
+    overflow: hidden;
+    position: absolute;
+}
+ input[type="checkbox"]:checked + label {
+		background-position: 100% -17px;
+}
+.checkbox-image{
+	 background-image: url("Images/checkbox.png");
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    padding-right: 25px;
+    height: 17px;
+}
+ 
+/* _______ Design For RadioButton _________*/
+ .radio {
+  display: inline-block;
+   
+  cursor: pointer;
+   margin: 0 !important;
+}
+.radio:hover .inner {
+  -webkit-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  transform: scale(0.5);
+  opacity: .5;
+}
+.radio input {
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+.radio input:checked + .outer .inner {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+.radio .outer {
+   background-color: #fff;
+    border: 1px solid #888;
+    border-radius: 50%;
+    display: block;
+    float: right;
+    height: 15px;
+    margin: 3px 0 0 6px;
+    width: 15px;
+}
+.radio .inner {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 9px;
+  height: 9px;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  display: block;
+  margin: 2px;
+  border-radius: 50%;
+  background-color: #bbb;
+  opacity: 0;
+}
+ 
+/* _______ Design For Datepicker _________*/
+
+.icon-circle-arrow-right{background-position:-240px -144px;}
+.icon-circle-arrow-left{background-position:-264px -144px;}
+[class^="icon-"],[class*=" icon-"]{display:inline-block;width:14px;height:14px;*margin-right:.3em;line-height:14px;vertical-align:text-top;background-image:url("Images/glyphicons-halflings.png");background-repeat:no-repeat;margin-top:1px;}
+
+
+.ui-datepicker-header>a{
+  padding: 4px 5px;
+ }
+
+
+
+.append-div{
+	 background-color: #e3ecef;
+    border: 1px solid #0587bf;
+    border-radius: 5px;
+    padding: 10px 25px 0px 25px;
+}
+
+.append-row{
+	border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+     margin-bottom: 10px;
+}
+
+
+
+.btn-delete{
+  background-color: #fcb9b8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 3px 12px 6px;
+}
+
+.btn-delete:hover{
+	background-color: #EA8585;
+}
+
+
+.col-border{
+	  border: 1px solid #ddd;
+    border-radius: 5px;
+    padding-top: 5px; margin-left: 0;
+    margin-right: 0;
+}
+.col-border-1{
+	  border: 1px solid #ddd;
+    border-radius: 5px;
+    padding-top: 5px; margin-left: 0;
+}
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+	direction: rtl !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+            box-shadow:  0px 0px 0px 0px #000;
+}
+
+    legend.scheduler-border {
+        font-size: 1.2em !important;
+        font-weight: bold !important;
+        text-align: left !important;
+        width:auto;
+        padding:0 10px;
+        border-bottom:none;
+    }
+
+/******** side bar *******/
+
+.side_bar{
+  width: 270px;
+  margin-left: -240px;
+  min-height:200px;
+  position: fixed;
+  opacity:0.9;
+  z-index: 1;
+  -webkit-transition: margin 500ms; /* Safari */
+  transition: margin 500ms;
+}
+
+.s_btn{
+  background-color: #3C3C3C;
+  width: 30px;
+  min-height:200px;
+  height: inherit;
+  display: inline-block;
+  position: fixed ;
+  opacity:0.4;
+  -webkit-transition: opacity 500ms; /* Safari */
+  transition: opacity 500ms;
+}
+
+.b_show{
+  display: block;
+}
+
+.b_hide{
+  display: none;
+}
+
+.s_btn:hover{
+  opacity:1;
+}
+
+.s_content{
+  background-color:#484848;
+  width: 240px;
+  padding-right: 5px;
+  min-height:200px;
+  height: inherit;
+  display: inline-block;
+}
+
+nav a:hover, nav a:focus {
+    color: #FFF;
+    background-color: #444;
+    text-shadow: 0px 0px 4px #FFF;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2) inset;
+}
+
+nav, nav * {
+    transition: all 300ms ease 0s;
+}
+
+nav a:link, nav a:visited {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 3px;
+    text-align: right;
+    color: #FFC;
+    border-radius: 4px;
+    outline: 0px none;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.s_show{
+  margin-left: 0;
+}
+.s_op{
+  opacity:1;
+}
