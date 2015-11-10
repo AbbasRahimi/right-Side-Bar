@@ -1,0 +1,592 @@
+
+@font-face
+{
+	font-family: 'b naz';
+ 	src:url('font/B Nazanin+ Regular.ttf') format('truetype');
+/* src:url('font/+ Black.ttf') format('truetype'); */
+
+}
+
+@font-face {
+ font-family:"BBCNassim";
+ src: url( "font/BBCNassim.eot" );
+ src: local( "☺" ),
+ url( "font/BBCNassim.woff" )
+ format( "woff" ),
+ url( "font/BBCNassim.ttf" )
+ format( "truetype" );
+}
+
+/* @font-face {
+    font-family: 'b naz';
+    src: url('css/BMitra.eot?#') format('eot'),  IE6–8
+        url('css/BMitra.woff') format('woff'),  FF3.6+, IE9, Chrome6+, Saf5.1+
+        url('css/BMitra.ttf') format('truetype');  Saf3—5, Chrome4+, FF3.5, Opera 10+
+    font-weight: normal;
+} */
+
+body
+{
+	width:100%;
+	height:100%;
+	float:right;
+	font-size:100%;
+	/* font-family:'b naz'; */
+	font:16px b naz;
+	background-repeat:repeat;
+}
+    
+
+.mainLayoutSize
+{
+	width:100%;
+	height:100%;
+	float:right;
+	font-size:90%;
+	font:16px b naz;
+	direction:rtl;
+	background-image:url('images/bg4.png'); background-repeat:repeat;
+	
+}
+
+.amaliyatLayoutSize
+{
+	width:100%;
+	height:100%;
+	float:right;
+	font-size:90%;
+	font:16px b naz;
+	direction:rtl;
+	margin-top:135px;
+	
+}
+
+div.headerLayoutSize
+{
+	width:100%;
+	height:30%;
+}
+div.leftLayoutSize
+{
+	width:28%;
+	height:70%;
+	margin-top:3%;
+	margin-left:4%;
+	float:left;
+	padding-bottom:3%;
+	margin-bottom:3%;
+	
+	border-style: solid;
+	border-color:#F4F4F4;
+	box-shadow: 0px 0px 4px #959595;
+	border-radius:16px;
+	
+	/*fade effects*/
+	-webkit-animation: fadein 1s; /* Safari and Chrome */
+       -moz-animation: fadein 1s; /* Firefox */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera */
+            animation: fadein 1s;
+}
+
+div.rightLayoutSize
+{
+	width:60%;
+	height:40%;
+	margin-top:3%;
+	font:16px b naz;
+	padding-bottom:3%;
+	padding-right:2%;
+	margin-left:3%;
+	float:left;
+	
+	border-style: solid;
+	border-color:#F4F4F4;
+	box-shadow: 0px 0px 4px #959595;
+	border-radius:16px;
+	
+	/*fade effects*/
+	-webkit-animation: fadein 1s; /* Safari and Chrome */
+       -moz-animation: fadein 1s; /* Firefox */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera */
+            animation: fadein 1s;
+     
+}
+div.bottomLayoutSize
+{
+	width:60%;
+	height:20%;
+	margin-top:2%;
+	margin-right:2%;
+	font:16px b naz;
+	margin-bottom:2%;
+	float:right;
+	
+	padding-right:2%;
+	padding-bottom:2%;
+	border-style: solid;
+	border-color:#F4F4F4;
+	box-shadow: 0px 0px 4px #959595;
+	border-radius:16px;
+	
+	/*fade effects*/
+	-webkit-animation: fadein 1s; /* Safari and Chrome */
+       -moz-animation: fadein 1s; /* Firefox */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera */
+            animation: fadein 1s;
+            
+}
+div.explanationLayoutSize
+{
+	width:60%;
+	height:10%;
+	margin-right:2%;
+	margin-bottom:2%;
+	float:right;
+	
+	padding-right:2%;
+	padding-bottom:2%;
+	border-style: solid;
+	border-color:#F4F4F4;
+	box-shadow: 0px 0px 4px #959595;
+	border-radius:16px;
+	
+	/*fade effects*/
+	-webkit-animation: fadein 1s; /* Safari and Chrome */
+       -moz-animation: fadein 1s; /* Firefox */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera */
+            animation: fadein 1s;
+            
+}
+
+div.centerLayoutSize
+{
+	width:70%;
+	height:70%;
+	margin-top:3%;
+	margin-left:15%;
+	float:left;
+	font:16px b naz;
+	
+	border-style: solid;
+	border-color:#F4F4F4;
+	box-shadow: 0px 0px 4px #959595;
+	border-radius:16px;
+	
+	/*fade effects*/
+	-webkit-animation: fadein 1s; /* Safari and Chrome */
+       -moz-animation: fadein 1s; /* Firefox */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera */
+            animation: fadein 1s;
+            
+}
+
+.pupoup
+{
+	width:20%;
+	height:70%;
+	margin-top:3%;
+	margin-left:15%;
+	float:left;
+}
+div.tableLayoutSize
+{
+	width:100%;
+	height:70%;
+	
+	float:left;
+	margin-left:4%;
+	margin-bottom:5%;
+	
+	border-style: solid;
+	border-color:#F4F4F4;
+	box-shadow: 0px 0px 4px #959595;
+	border-radius:16px;
+	overflow:auto;
+	
+	/*fade effects*/
+	-webkit-animation: fadein 1s; /* Safari and Chrome */
+       -moz-animation: fadein 1s; /* Firefox */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera */
+            animation: fadein 1s;
+            
+}
+div.tabloTableLayoutSize
+{
+	width:80%;
+	height:70%;
+	
+	float:left;
+	margin-right:10%;
+	margin-bottom:5%;
+	
+	border-style: solid;
+	border-color:#F4F4F4;
+	box-shadow: 0px 0px 4px #959595;
+	border-radius:16px;
+	overflow:auto;
+	
+	/*fade effects*/
+	-webkit-animation: fadein 1s; /* Safari and Chrome */
+       -moz-animation: fadein 1s; /* Firefox */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera */
+            animation: fadein 1s;
+            
+}
+
+div.tabloLayoutSize
+{
+	width:60%;
+	margin-right:2%;
+	margin-bottom:4%;
+	float:right;
+	
+	padding-right:2%;
+	padding-bottom:2%;
+	border-style: solid;
+	border-color:#F4F4F4;
+	box-shadow: 0px 0px 4px #959595;
+	border-radius:16px;
+	
+	/*fade effects*/
+	-webkit-animation: fadein 1s; /* Safari and Chrome */
+       -moz-animation: fadein 1s; /* Firefox */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera */
+            animation: fadein 1s;
+}
+
+.fieldPack
+{
+	width:100%;
+}
+select.dropDownList
+{
+	width:40%;
+	margin-top:3%;
+	border:1px solid;
+	height:23px;
+	border-radius:5px;
+	border-color:#959595;
+	box-shadow: 0px 0px 1px #959595;
+	background-color:#F9F9F9;
+	font:16px b naz;
+}
+
+input.textEdit
+{
+	width:39%;
+	margin-top:3%;
+	border:1px solid;
+	border-radius:6px;
+	border-color:#959595;
+	box-shadow: 0px 0px 1px #959595 ;
+	background-color:#F9F9F9;
+	font:16px b naz;
+	float:center;
+}
+
+input.shortTextEdit
+{
+	width:50%;
+	margin-top:3%;
+	border:1px solid;
+	border-radius:6px;
+	border-color:#959595;
+	box-shadow: 0px 0px 1px #959595;
+	background-color:#F9F9F9;
+	font:16px b naz;
+}
+.label
+{
+	display:inline-block;
+}
+.collapselabel
+{
+	display:inline-block;
+	width:20%;
+	margin-right:12%;
+}
+.leftLayoutLabel
+{
+	display:inline-block;
+	width:45%;
+}
+
+.leftLayoutLabel_tahvilTahavol
+{
+	display:inline-block;
+	width:48%;
+}
+
+.leftLayoutLabel_nasbEnsheab
+{
+	display:inline-block;
+	width:48%;
+}
+
+.leftLayoutLabel_Nezarat
+{
+	display:inline-block;
+	width:25%;
+}
+
+.radioGroup
+{
+	direction:ltr;
+	float:right;
+}
+
+.nasbRadioGroup
+{
+	direction:rtl;
+	float:right;
+	margin-left:5%;
+}
+
+.checkBox
+{
+	direction:ltr;
+	float:left;
+	margin-left:3%;
+}
+.border
+{
+	border-style: solid;
+	border-color:#F4F4F4;
+	box-shadow: 0px 0px 2px #959595;
+	border-radius:16px;
+	width:70%;
+}
+
+.button
+{
+	margin-left:20%;
+}
+
+.textArea
+{
+	box-shadow: 0px 0px 1px #959595 ;
+	border-radius:10px;
+	background-color:#F9F9F9;
+	 
+	width:70%;
+	height:100px;
+	 font-family: tahoma;
+    font-size: 13px;
+}
+.longlabel
+{
+	display:inline-block;
+	width:42%;
+}
+.shortlabel
+{
+	display:inline-block;
+	width:30%;
+	margin-right:15%;
+	margin-top:3%;
+	float:right;
+}
+
+.row{
+  margin-left: 0 !important;
+}
+
+
+.headerImage
+{
+	margin-top:30px;
+	position: absolute;
+	width: 80%;
+	background-image:url('images/bg2.png'); background-repeat:x-repeat;
+}
+
+.clr{
+	clear: both;
+}
+
+.footerImage
+{
+	margin-bottom:50px;
+	float:bottom;
+	background-image:url('images/bg3.png');
+    background-repeat:x-repeat;
+}
+
+.title{
+	font: bold 28px/106px "b naz",arial;
+	color: #fff;
+}
+
+.boxMargin{
+  margin-bottom: 10px ;
+}
+
+.logo{
+    height:105px;
+	background: url(images/bargh.png) no-repeat center center;
+}
+
+.content{
+    background-image:url('images/bg4.png'); background-repeat:repeat;
+}
+
+.desc{
+         margin-top: 75px;
+   }
+
+.copyRight{
+    margin-top:20%;
+    display:inline-block;
+}
+
+@media screen and (max-width: 768px) {
+   .desc{
+         text-align: center;
+         margin-top: 0;
+   }
+
+   .title{
+      font: bold 19px/106px "b naz",arial;
+      text-align: center !important;
+   }
+
+   .footLogo{
+        margin-left: 37% !important ;
+   }
+
+   .copyRight{
+    margin-top:2%;
+    margin-left: 22%;
+    display:inline-block;
+    }
+
+    .links{
+      text-align: center;
+    }
+
+    .links>ul{
+      list-style-type: none;
+    }
+
+
+
+}
+
+@media screen and (max-width: 767px) {
+
+   .title{
+      font: bold 19px/106px "b naz",arial;
+      text-align: center !important;
+      float: inherit !important;
+   }
+
+}
+
+@media screen and (max-width: 1051px) {
+
+   .title{
+      font: bold 23px/106px "b naz",arial;
+   }
+
+}
+
+@media screen and (max-width: 400px) {
+  .title{
+      font: bold 17px/106px "b naz",arial;
+   }
+
+   .header-p{
+        font-size:10pt !important;
+    }
+
+     .footLogo{
+        margin-left: 15% !important ;
+   }
+    .copyRight{
+    margin-top:2%;
+    margin-left: 3%;
+    display:inline-block;
+    }
+
+  }
+
+//fade effect keys
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}​
+
+/* Opera */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}​
+
+
+ textarea{
+    font-fami[]ly: tahoma;
+    font-size: 13px;
+    }
+
+    .mouseOnExport
+    {
+    	cursor: pointer;
+    }
+
+ .header-title {
+    padding:0 !important;
+    background-color: rgba(215, 215, 215, 0.5) !important;
+ }
+
+ .header-p{
+    margin: 5px !important;
+    font-size:14pt;
+    text-align: center;
+    font-family: BBCNassim,tahoma;
+ }
+
+ .rightArrow{
+	width: 0; 
+	height: 0; 
+	margin-left:8px;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	
+	border-left: 10px solid #bdc3c7;
+ }
+ 
+  .leftArrow{
+	width: 0; 
+	height: 0; 
+	margin-left:8px;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent; 
+	
+	border-right:10px solid #bdc3c7;
+ }
